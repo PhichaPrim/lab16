@@ -55,7 +55,7 @@ void findRowSum(const double *a,double *b,int N,int M){
      for(int i = 0; i < N*M; i++){
         *(b+(i/M)) += *(a+i);
     }
- }
+}
 
 void findColSum(const double *a,double *b,int N,int M){
     for(int i =0 ; i<M ;i++){
@@ -64,4 +64,4 @@ void findColSum(const double *a,double *b,int N,int M){
      for(int i = 0; i < N*M; i++){
         *(b+(i%M)) += *(a+i);
     }
- }
+}
